@@ -1,0 +1,38 @@
+.services{
+    margin-top: 250px;
+
+
+
+    &__flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        max-width: 280px;
+        margin-top: 30px;
+
+        &--title{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 69px;
+            /* or 276% */
+
+
+            color: #000000;
+        }
+
+        &--descer{
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #787878;
+        }
+    }
+}

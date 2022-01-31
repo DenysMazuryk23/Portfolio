@@ -1,0 +1,67 @@
+[
+
+    {
+        "name": "Silver Oak",
+        "img": "wine1.png",
+        "oldPrice": 500,
+        "newPrice": 450, 
+        "categiri": "all white"        
+    },
+
+    {
+        "name": "2015 Woodenhead",
+        "img": "wine2.png",
+        "oldPrice": 150,
+        "newPrice": 140, 
+        "categiri": "all rose"        
+    },
+
+    {
+        "name": "2014 red hills",
+        "img": "wine3.png",
+        "oldPrice": 1000,
+        "newPrice": 850, 
+        "categiri": "all red"        
+    },
+    {
+        "name": "2012 Chardonnay",
+        "img": "wine4.png",
+        "oldPrice": 150,
+        "newPrice": 140, 
+        "categiri": "all white"        
+    },
+    {
+        "name": "2015 Woodenhead",
+        "img": "wine5.png",
+        "oldPrice": 150,
+        "newPrice": 140, 
+        "categiri": "all rose"        
+    },
+    {
+        "name": "2015 Woodenhead",
+        "img": "wine6.png",
+        "oldPrice": 150,
+        "newPrice": 140, 
+        "categiri": "all red"        
+    },
+    {
+        "name": "2015 Woodenhead",
+        "img": "wine7.png",
+        "oldPrice": 150,
+        "newPrice": 140, 
+        "categiri": "all white"        
+    },
+    {
+        "name": "2015 Woodenhead",
+        "img": "wine8.png",
+        "oldPrice": 150,
+        "newPrice": 140, 
+        "categiri": "all red"        
+    }
+
+
+
+
+    
+
+]

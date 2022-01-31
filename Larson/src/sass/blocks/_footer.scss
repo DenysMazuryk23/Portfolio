@@ -1,0 +1,107 @@
+.footer{
+    border-top: 1px solid #A6A6A6;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+    &__logo{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+
+        span{
+            display: block;
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;
+
+            color: #000000;
+
+            opacity: 0.6;
+        }
+    }
+
+    &__info{
+        max-width: 145px;
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #000000;
+    }
+
+    &__nav{
+        display: flex;
+        flex-direction: column;
+
+        a{
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #000000;
+        }
+    }
+
+    &__menu{
+        display: flex;
+        flex-direction: column;
+
+        a{
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #000000;
+        }
+    }
+
+    &__lang{
+        display: flex;
+        flex-direction: column;
+
+        a{
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+
+            color: #000000;
+
+
+        }
+    }
+
+    &__soc{
+        display: flex;
+        img{
+            width: 16px;
+            margin: 5px;
+        }
+    }
+}
+

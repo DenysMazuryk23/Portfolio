@@ -1,0 +1,81 @@
+.header > div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header{
+    padding: 20px 0;
+
+
+    &__logo{
+        display: flex;
+        align-items: center;
+
+
+        &-first{
+            position: relative;
+            &::after{
+                content: '';
+                width: 1px;
+                height: 60px;
+                background: #c3c3c3;
+                display: inline-block;
+                margin-left: 20px;
+                position: absolute;
+                top: 5px;
+          
+               
+
+
+            }
+        }
+
+        &-last{
+            margin-left: -25px;
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+
+
+    &__info{
+        max-width: 300px;
+        margin-left: 40px;
+        color: #2d2e30;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+
+    &__contact{
+        margin-left: 50px;
+
+        &--place{
+            color: #2d2e30;;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+
+        &--phone{
+            color: #2d2e30;
+            font-size: 14px;
+            &:hover{
+                text-decoration: none;
+                color: #2d2e30;
+            }
+        }
+
+        &--email{
+            color: #2d2e30;
+            font-size: 14px;
+        }
+    }
+}
+
+

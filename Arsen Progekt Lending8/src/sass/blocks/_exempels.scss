@@ -1,0 +1,136 @@
+.exempels{
+    padding-top: 120px;
+    display: flex;
+    
+
+
+    &__img{
+        max-width: 460px;
+        img{
+            display: block;
+            max-width: 320px;
+         
+        }
+    }
+
+    &__link{
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        color: #828f96;
+        cursor: pointer;
+
+        &:hover{
+            color: #000;
+            text-decoration: none;
+            transition: 0.3s all;
+        }
+    }
+
+    &__info{
+        max-width: 430px;
+        margin-left: 80px;
+        &__title{
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 26px;
+        }
+
+        &--subtitle{
+            margin-top: 15px;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+
+    &__list{
+        margin-top: 20px;
+        list-style-type: none;
+
+        &--item{
+
+
+            margin-top: 20px;
+            padding-left: 28px;
+            line-height: 19px;
+            font-size: 14px;
+            color: #464a50;
+            position: relative;
+
+            &::before{
+                content: "";
+                background-image: url(../icons/check-solid.svg);
+                background-repeat: no-repeat;
+                width: 15px;
+                height: 13px;
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 4px;
+
+            }
+
+            &:first-child{
+                padding-top: 0;
+            }
+
+
+            
+        }
+    }
+
+    span{
+        display: inline-block;
+        margin-top: 25px;
+    }
+
+    &__btn{
+        padding: 0 22px;
+        outline: none;
+        margin-top: 27px;
+        display: inline-flex;
+        align-items: center;
+        height: 50px;
+        color: #fff;
+        background: #3b82f5;
+        font-weight: bold;
+        border-radius: 3px;
+
+        &:hover{
+            transition: 0.3s all;
+            text-decoration: none;
+            color: #fff;
+            background: #3b82f5d0;
+        }
+    }
+
+}
+
+
+.exempels__mobile{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    img{
+        max-width: 200px;
+    }
+}
+
+
+.main__descer_section{
+    margin: 20px 0;
+    border-radius: 3px;
+    border: solid 1px #cfbe94;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 20px; 
+  
+}
+
+
+.old--PRICE{
+    display: inline-block;
+}

@@ -1,0 +1,45 @@
+@import 'libs/bootstrap-reboot.min';
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Poppins', sans-serif;
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.li{
+    list-style-type: none;
+}
+
+
+a{
+    &:hover{
+        text-decoration: none;
+    }
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #000;
+}
+
+
+
+@import "./blocks/header";
+@import "./blocks/prmo";
+@import "./blocks/newWins";
+@import "./blocks/catalog";
+@import "./blocks/modallList";
+@import "./blocks/client";
+@import "./blocks/slider";
+@import "./blocks/media";

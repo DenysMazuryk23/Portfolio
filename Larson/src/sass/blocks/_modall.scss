@@ -1,0 +1,145 @@
+.moadll__window--projekts{
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    width: 1800px;
+    height: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    animation-name:identifier;
+    animation-duration: 2s;
+}
+
+
+.modall__backgraund{
+    img{
+        
+        height: 100%;
+        width: 428px;
+    }
+
+}
+
+
+.modall__info{
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    animation-name:backgraundInfo;
+    animation-duration: 2s;
+    animation-delay: 2s;
+   
+}
+
+.modalltitle{
+    max-width: 500px;
+    margin: 0px auto;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.modall__services{
+    margin-top: 50px;
+}
+
+.modall__skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+
+
+
+.modall__news--title{
+    max-width: 500px;
+    margin: 0px auto;
+    font-size: 36px;
+}
+
+
+
+
+.modall__window_news{
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    width: 1800px;
+    height: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    animation-name:identifier;
+    animation-duration: 2s;  
+
+  
+}
+
+
+
+
+
+
+.modaLL__news--backgraund{
+    height: 100%;
+        width: 428px;
+}
+
+
+.modall__news--descer{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #787878;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+
+
+
+@keyframes identifier {
+    0%{
+        width: 0;
+
+        top: 50%;
+        left: 10%;
+    
+    }
+
+
+    100%{
+        width: 1800px;
+
+        top: 50%;
+        left: 50%;
+    }
+}
+
+
+
+
+
+
+@keyframes backgraundInfo {
+    0%{
+        opacity: 0;
+    }
+
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+

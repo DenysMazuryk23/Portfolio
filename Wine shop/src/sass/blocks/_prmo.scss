@@ -1,0 +1,73 @@
+.promo{
+    margin-top: 150px;
+    text-align: center;
+
+    &__headtitle{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 14px;
+        /* identical to box height */
+        color: #FFFFFF;
+        }
+
+    &__title{
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+        line-height: 56px;
+        /* identical to box height */
+        margin-top: 40px;
+
+        color: #FFFFFF;
+
+        span{
+            color: #E2B024;
+        }
+    }
+
+    &__descer{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        max-width: 755px;
+        margin: 0 auto;
+        margin-top: 25px;
+        color: #FFFFFF;
+
+    }
+
+    &__btn{
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 9px;
+        margin-top: 40px;
+        color: #E2B024;
+        display: block;
+
+        &:hover{
+            transition: 0.3s all;
+            color: #ffff;
+        }
+        &::after{
+            content: "";
+            width: 70px;
+            display: block;
+            margin: 5px auto;
+            border: 1px solid #E2B024;
+            
+        }
+    }
+
+    &__img{
+        img{
+            max-width: 470px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.partners{
+    margin-top: 250px;
+    margin-bottom: 250px;
+
+    &> div{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img{
+        max-width: 120px;
+    }
+
+
+    
+}
+
+

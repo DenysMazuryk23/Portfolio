@@ -1,0 +1,27 @@
+{
+    "items": [     
+        {
+            "name": "Silver Oak",
+            "img": "img/wine1.png",
+            "old Price": 500,
+            "new Price": 450, 
+            "categiri": "all white"        
+        },
+
+        {
+            "name": "2015 Woodenhead ",
+            "img": "img/wine1.png",
+            "old Price": 150,
+            "new Price": 140, 
+            "categiri": "all rose"        
+        },
+
+        {
+            "name": "2014 red hills",
+            "img": "img/wine1.png",
+            "old Price": 1000,
+            "new Price": 850, 
+            "categiri": "all red"        
+        }
+    ]
+}

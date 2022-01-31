@@ -1,0 +1,56 @@
+.forms__wrapper{
+    width: 750px;
+    min-height: 510px;
+    background-color: #fff;
+    box-shadow: 0 13px 28px -9px rgba(162,162,162,0.6);
+
+    &--top{
+        padding: 20px 25px;
+        border-bottom: 2px solid #d3dee4;
+        font-size: 18px;
+    }
+
+    &__body{
+        padding: 20px 25px;
+    }
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    label{
+        max-width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    input{
+        border: none;
+        background-color: #e9eef1;
+        padding: 5px 11px;
+        outline: none;
+        border-radius: 3px;
+    }
+}
+
+
+.obj{
+    display: none;
+}
+
+.form__btn{
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #696969;
+    padding: 14px 30px;
+}
+
+
+.forms__politics{
+    font-size: 10px;
+}

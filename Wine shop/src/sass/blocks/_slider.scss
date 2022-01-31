@@ -1,0 +1,125 @@
+.slider{
+    padding: 140px 0;
+    position: relative;
+
+
+    &__title{
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 28px;
+        /* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
+
+        span{
+            color: #E2B024;
+        }
+    }
+
+
+    &__window{
+        margin-top: 50px;
+    }
+
+
+    &__item{
+        display: flex;
+        background: #18191A;
+        min-width: 1170px;
+        height: 410px;
+
+        img{
+            margin-right: 30px;
+        }
+    }
+
+
+    &__info{
+        padding: 65px 0 140px 0;
+
+        &--title{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+        }
+
+
+        &--subtitle{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+
+        }
+
+
+        &--descer{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+
+            color: #FFFFFF;
+            max-width: 512px;
+           
+        }
+  
+
+    }
+
+
+
+    &__window{
+        max-width: 1170px;
+        overflow: hidden;
+    }
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__arrow{
+        cursor: pointer;
+        position: relative;
+
+        &::after{
+            content: "";
+            width: 50px;
+            height: 50px;
+            border: 1px solid #E2B024;
+            display: block;
+            border-radius: 100%;
+            position: absolute;
+            top: -10px;
+            left: -110%;
+        }
+    }
+    &__next{
+        position: absolute;
+        right: -100px;
+        top: 50%;
+    }
+
+    &__prev{
+        position: absolute;
+        left: -100px;
+        top: 50%;
+    }
+}
